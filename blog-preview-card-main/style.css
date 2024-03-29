@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --primary-yellow : hsl(47, 88%, 63%);
+    --Neutral-white : hsl(0, 0%, 100%);
+    --Neutral-Grey : hsl(0, 0%, 50%);
+    --Neutral-black : hsl(0, 0%, 7%);
+    --font-size : 16px;
+    --font-size-min : 14px;
+    --font-size-minmin : 12px;
+    --font-family: "Figtree", sans-serif;
+    --font-optical-sizing: auto;
+    --font-weight-regular : 500;
+    --font-weight-bold : 800;
+    --font-style: normal;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--primary-yellow);
+
+}
+
+#card {
+    width: 380px;
+    background-color: var(--Neutral-white);
+    margin-bottom: 8px;
+    padding: 25px ;
+    border: 1px  solid var(--Neutral-black);
+    margin: 100px auto;
+    border-radius: 20px;
+    border-image: none;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    box-shadow: black 15px 15px ;
+}
+
+#card>img{
+    border-radius: 10px;
+    width:100%;
+    margin-bottom: 15px;
+}
+#text>button{
+    background-color: var(--primary-yellow);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-bold);
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 12px ;
+    margin-bottom: 15px;
+}
+#text * {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+h6{
+    font-size: var(--font-size-min);
+    font-weight: var(--font-weight-regular);
+}
+h2{
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-yellow);
+}
+p{
+    color: var(--Neutral-Grey);
+    text-align: left;
+}
+#avatar{
+    display: flex;
+    font-size: var(--font-size-minmin);
+    
+
+}
+#avatar>img{
+    width: 10%;
+    max-width: 10%;
+    /* margin-right: 20px; */
+}
+h3{
+    padding-top: 6px;
+    font-weight: var(--font-weight-bold);
+    margin-left: 10px;
+}
